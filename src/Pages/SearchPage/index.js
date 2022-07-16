@@ -22,7 +22,7 @@ const SearchPage = () => {
 	return (
 		<Flex
 			w={"100%"}
-			m={"0px !important"}
+			m={"0px"}
 			justifyContent={"space-between"}
 			mb={"auto !important"}
 			pb={{ base: "60px", lg: "unset" }}

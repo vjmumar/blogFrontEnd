@@ -11,7 +11,7 @@ const Information = lazy(() => import("../../Components/Profile/ProfileInformati
 
 const ProfilePage = () => {
 	return (
-		<Flex pb={{ base: "60px", lg: "unset" }} m={"0px !important"} w={"100%"}>
+		<Flex pb={{ base: "60px", lg: "unset" }} m={"0px"} mb={"auto !important"} w={"100%"}>
 			<Flex
 				flexDirection={{ base: "column-reverse", lg: "row" }}
 				w={"100%"}
@@ -20,7 +20,7 @@ const ProfilePage = () => {
 				<SideBar />
 				<ContextProvider>
 					<VStack
-            p={{ base: "0px 15px 30px", lg: "unset" }}
+						p={{ base: "0px 15px 30px", lg: "unset" }}
 						maxW={{ base: "100%", lg: "900px" }}
 						minW={{ base: "100%", lg: "900px" }}
 						mb={"20px"}
@@ -31,10 +31,10 @@ const ProfilePage = () => {
 					<VStack
 						position={{ base: "relative", lg: "sticky" }}
 						top={"0"}
-            flexShrink={"0"}
+						flexShrink={"0"}
 						ml={{ base: "unset", lg: "20px" }}
 						mr={{ base: "unset", lg: "30px" }}
-						mt={{ base: "0", lg: "30px"}}
+						mt={{ base: "0", lg: "30px" }}
 						w={{ base: "100%", lg: "350px" }}
 					>
 						<Suspense fallback={<ProfileInformationSkeleton />}>

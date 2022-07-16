@@ -23,7 +23,8 @@ import {
 const MyStories = () => {
 	return (
 		<Flex
-			m={"0px !important"}
+			m={"0px"}
+			mb={"auto !important"}
 			pb={{ base: "60px", lg: "unset" }}
 			w={"100%"}
 			justifyContent={"space-between"}

@@ -19,7 +19,8 @@ const Stories = lazy(() => import("../../Components/HomeStories"));
 const HomePage = () => {
 	return (
 		<Flex
-			m={"0px !important"}
+			m={"0px"}
+			mb={"auto !important"}
 			w={"100%"}
 			justifyContent={"space-between"}
 			pb={{ base: "60px", lg: "unset" }}

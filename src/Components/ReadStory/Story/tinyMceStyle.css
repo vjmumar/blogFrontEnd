@@ -1,0 +1,57 @@
+.story-paragraph{
+    width: 100% !important;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.story-paragraph ul, 
+.story-paragraph ol {
+    padding-left: 20px;
+}
+
+.story-paragraph p, 
+.story-paragraph h1,
+.story-paragraph h2,
+.story-paragraph h3,
+.story-paragraph h4,
+.story-paragraph h5,
+.story-paragraph h6 {
+  margin-top: 16px;   
+}
+
+
+ul, ol {
+    padding-left: 40px !important;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 23px;
+    font-weight: 700;
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+h6 {
+    font-size: 18px;
+    font-weight: 700;
+}

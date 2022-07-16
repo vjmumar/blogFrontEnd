@@ -1,0 +1,13 @@
+export const HOME_ROUTE = '/';
+export const SIGN_IN = '/signin';
+export const SIGN_UP = '/signup';
+export const NOTIFICATION_ROUTE = '/notification';
+export const MY_STORIES_ROUTE = '/my-story';
+export const CREATE_STORY_ROUTE = '/create-story';
+export const SEARCH_ROUTE = '/search/text';
+export const PROFILE_ROUTE = '/profile';
+export const MESSAGE_ROUTE = '/message';
+export const READ_STORY_ROUTE = '/read-story';
+export const EMAIL_VERIFICATION_ROUTE = '/email-verification';
+export const FORGOT_PASSWORD_ROUTE = '/forgot-password';
+export const CHANGE_PASSWORD_ROUTE = '/change-password';

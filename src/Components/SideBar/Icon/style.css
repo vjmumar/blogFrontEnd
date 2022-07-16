@@ -1,0 +1,32 @@
+.icon-alt {
+    display: flex !important;
+    position: absolute;
+    right: -100%;
+    transform: translateX(100%);
+    font-size: 12px;
+    width: 100px;
+    top: 0;
+    bottom: 0;
+    height: fit-content;
+    padding: 7px 10px;
+    margin-bottom: auto 0;
+    background: black;
+    color: white;
+    display: block;
+    margin-right: -20px;
+}
+
+.icon-alt::before {
+    z-index: 999999999999;
+    content: 'none';
+    margin-left: -25px;
+    color: transparent;
+    clip-path: polygon(0 50%, 100% 100%, 100% 0);
+    background: black;
+}
+
+@media (max-width: 991px) {
+    .icon-alt {
+        display: none !important;
+    }
+}

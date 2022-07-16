@@ -1,7 +1,7 @@
- import React,{useEffect} from 'react';
+import { useEffect } from "react";
 
- export const useComponentDidMount = (cb) => {
-  useEffect(() => {
-    cb();
-  }, []);
+export const useComponentDidMount = (cb) => {
+	useEffect(() => {
+		cb();
+	}, []);
 };

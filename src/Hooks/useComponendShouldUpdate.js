@@ -1,7 +1,7 @@
-import React,{useEffect} from 'react';
+import { useEffect } from "react";
 
-export const useComponentShouldUpdate = (cb,args) => {
- useEffect(() => {
-   cb();
- }, args);
+export const useComponentShouldUpdate = (cb, args) => {
+	useEffect(() => {
+		cb();
+	}, args);
 };

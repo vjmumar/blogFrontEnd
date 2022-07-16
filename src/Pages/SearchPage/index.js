@@ -23,8 +23,8 @@ const SearchPage = () => {
 		<Flex
 			w={"100%"}
 			m={"0px"}
-			justifyContent={"space-between"}
 			mb={"auto !important"}
+			justifyContent={"space-between"}
 			pb={{ base: "60px", lg: "unset" }}
 		>
 			<ContextProvider>

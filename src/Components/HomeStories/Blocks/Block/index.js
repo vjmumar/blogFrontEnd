@@ -21,18 +21,18 @@ const Block = ({ e }) => {
 						to={`${READ_STORY_ROUTE}/${e?.accountId}?story=${e?.story.id}`}
 					>
 						<UserInformation
-							image={e.imageLink}
-							fName={e.firstName}
-							lName={e.lastName}
-							dCreated={e.story.dateCreated}
+							image={e?.imageLink}
+							fName={e?.firstName}
+							lName={e?.lastName}
+							dCreated={e?.story?.dateCreated}
 						/>
 						<StoryPreview
-							title={e.story.title}
-							text={e.story.text}
-							likes={e.story.likes || []}
-							image={e.story.heroLink}
+							title={e?.story?.title}
+							text={e?.story?.text}
+							likes={e?.story?.likes || []}
+							image={e?.story?.heroLink}
 							isUserLikedThisStory={e.isUserLikedThisStory}
-							commentsTotal={e.story.comments.length}
+							commentsTotal={e?.story?.comments.length}
 						/>
 					</Link>
 				</VStack>
